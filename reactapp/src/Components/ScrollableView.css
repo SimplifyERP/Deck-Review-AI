@@ -1,0 +1,17 @@
+/* src/components/ScrollableView.css */
+.scroll-container {
+     /* Adjust height as needed */
+    overflow-y: scroll;
+    border: 1px solid #ccc;
+    scrollbar-width: none;  
+  }
+  
+  .scroll-content {
+    padding: 10px;
+  }
+  
+  .item {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+  }
+  

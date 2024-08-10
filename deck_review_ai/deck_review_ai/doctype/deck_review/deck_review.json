@@ -1,0 +1,73 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "DECK-REVIEW-.####",
+ "creation": "2024-08-06 17:11:51.697887",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "deck_attach_details_section",
+  "deck_attach",
+  "extraction_details_section",
+  "pdf_extraction",
+  "llm_response_tab",
+  "extraction_response"
+ ],
+ "fields": [
+  {
+   "fieldname": "deck_attach_details_section",
+   "fieldtype": "Section Break",
+   "label": "Deck Attach Details"
+  },
+  {
+   "fieldname": "deck_attach",
+   "fieldtype": "Attach",
+   "label": "Deck Attach"
+  },
+  {
+   "fieldname": "extraction_details_section",
+   "fieldtype": "Section Break",
+   "label": "Extraction Details"
+  },
+  {
+   "fieldname": "pdf_extraction",
+   "fieldtype": "Text Editor",
+   "label": "PDF Extraction"
+  },
+  {
+   "fieldname": "llm_response_tab",
+   "fieldtype": "Tab Break",
+   "label": "LLM Response"
+  },
+  {
+   "fieldname": "extraction_response",
+   "fieldtype": "Text Editor",
+   "label": "Extraction Response"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-08-08 14:30:17.017879",
+ "modified_by": "Administrator",
+ "module": "Deck Review AI",
+ "name": "Deck Review",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

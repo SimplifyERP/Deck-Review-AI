@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'OpenSauceSansSemiBold';
+  src: local("OpenSauceSans-SemiBold"),
+    url(/src/assets/Fonts/OpenSauceSans-SemiBold.ttf) format('truetype'),
+
+}
+
+@font-face {
+  font-family: 'OpenSauceSansRegular';
+  src: local("OpenSauceSans-Regular"),
+    url(/src/assets/Fonts/OpenSauceSans-Regular.ttf) format('truetype'),
+
+}
+
+@font-face {
+  font-family: 'OpenSauceSansMedium';
+  src: local("OpenSauceSans-Medium"),
+    url(/src/assets/Fonts/OpenSauceSans-Medium.ttf) format('truetype'),
+
+}
+
+@font-face {
+  font-family: 'OpenSauceSansLight';
+  src: local("OpenSauceSans-Light"),
+    url(/src/assets/Fonts/OpenSauceSans-Light.ttf) format('truetype'),
+
+}
+
+@font-face {
+  font-family: 'OpenSauceSansBold';
+  src: local("OpenSauceSans-Bold"),
+    url(/src/assets/Fonts/OpenSauceSans-Bold.ttf) format('truetype'),
+
+}

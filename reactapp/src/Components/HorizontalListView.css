@@ -1,0 +1,25 @@
+/* HorizontalListView.css */
+.horizontal-list {
+    display: flex;
+    overflow-x: auto; /* Enables horizontal scrolling if necessary */
+    white-space: nowrap;
+    scroll-behavior: smooth;
+    padding: 10px;
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+    gap: 10px; /* Optional: space between items */
+  }
+  
+  .list-item {
+    flex: 0 0 auto; /* Prevents items from shrinking or growing */
+    background-color: #f1f1f1; /* Optional: background color for items */
+    padding: 20px;
+    border: 1px solid #ddd; /* Optional: border for items */
+    border-radius: 4px; /* Optional: rounded corners for items */
+  }
+
+  /* Custom scrollbar styles to hide the scrollbar */
+.horizontal-list::-webkit-scrollbar {
+    display: none;
+  }
+  
